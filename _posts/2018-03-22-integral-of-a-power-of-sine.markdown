@@ -2,8 +2,7 @@
 layout: post
 title:  "Integral of a power of sine"
 date:   2018-03-22 11:04:20 +0100
-categories: jekyll update
-use_math: true
+categories: math
 ---
 It is not unusual to encounter a trigonometric integral; some of them require specific observations, in order to be solved. For example:
 
@@ -57,3 +56,7 @@ Alternatively, it can be noticed that
 $$\displaystyle \sin^2 \left( x + \frac{\pi}{2} \right) = \cos^2 x$$
 
 That is: the squared cosine anticipates the squared sine by $\pi/2$ along the $x$ axis, as well as the original (not squared) sine and cosine. So, as $\cos^2 x$ is an even function (symmetrical with respect to $x = 0$), the $\sin^2 x$ function will maintain the same symmetry, but $\pi / 2$ later than the cosine: it will then be symmetrical with respect to $x = \pi / 2$ instead of $x = 0$. So, evaluating the integral of $\sin^2 x$ between $0$ and $\pi$ is the same as evaluating twice the integral of $\sin^2 x$ between $0$ and $\pi/2$.
+
+--
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
