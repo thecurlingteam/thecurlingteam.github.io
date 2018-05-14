@@ -12,11 +12,12 @@ The document tries to adopt a systematic approach towards the Maxwell equation s
 
 [![A partial introduction to dielectric waveguides]({{ site.url }}/assets/document2_64.png)]({{ site.url }}/assets/dwaveguides_one.pdf) [**A partial introduction to dielectric waveguides**]({{ site.url }}/assets/dwaveguides_one.pdf) (click to download the pdf document).
 
-*Update: April 11th, 2018*
+*Update: May 14th, 2018*
 
 Table of contents:
 
 - Introduction
+- Oblique incidence of a plane wave on a surface
 - Dielectric slab waveguides
   - Symmetrical slab waveguides
     - TE modes
