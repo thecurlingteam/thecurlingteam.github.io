@@ -8,11 +8,11 @@ The simplest type of dielectric waveguide is composed by a slab with an infinite
 
 An introduction to the structure and the features of such waveguides is presented here. This is *partial*, because it could be updated and expanded, and it does not thoroughly deal with all the aspects of this problem.
 
-The document tries to adopt a systematic approach towards the Maxwell equation solution, to determine the available field configurations that can carry a signal along a single direction, inside the dielectric structure.
+The document tries to adopt a systematic approach towards the Maxwell equation solution, to determine the available field configurations that can carry a signal along a single direction, inside the dielectric structure. An attempt to mention also the preliminary concepts is made, like the oblique incidence of a wave on a surface and the Second order differential equations.
 
 [![A partial introduction to dielectric waveguides]({{ site.url }}/assets/document2_64.png)]({{ site.url }}/assets/dwaveguides_one.pdf) [**A partial introduction to dielectric waveguides**]({{ site.url }}/assets/dwaveguides_one.pdf) (click to download the pdf document).
 
-*Update: May 14th, 2018*
+*Update: May 22th, 2018*
 
 Table of contents:
 
@@ -29,6 +29,10 @@ Table of contents:
     - Normalized equations
     - Dielectric cutoff condition
     - Snell's law
+- Appendices, A subset of Second order differential equations
+  - Introduction
+  - A specific case
+    - Summary
 
 --
 
