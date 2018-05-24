@@ -61,7 +61,7 @@ It is a telescoping series. In this case, the last *addend* has not a finite ind
 
 $$\lim_{r \to \infty} \arctan \displaystyle \left[ (r + 1) - \frac{1}{2} \right] = \displaystyle \frac{\pi}{2}$$
 
-Despite this, it has a finite value. So,
+Note that this is not an ordinary angle, but a *limit* angle value. It is finite. So,
 
 $$\sum_{r = 1}^{\infty} \left\{ \arctan \displaystyle \left[ (r + 1) - \frac{1}{2} \right] - \arctan \displaystyle \left( r - \frac{1}{2} \right) \right\} = \displaystyle \frac{\pi}{2} - \arctan \left( \displaystyle \frac{1}{2} \right)$$
 
@@ -71,7 +71,7 @@ The initial expression becomes:
 
 $$\tan \left[ \displaystyle \frac{\pi}{2} - \arctan \left( \displaystyle \frac{1}{2} \right) \right] $$
 
-First, this is a value different from (and smaller than) $\pi / 2$, which is not included in the domain of tangent. So, this value is acceptable. 
+First, this is a value different from (and smaller than) $\pi / 2$, so it is acceptable and included in the domain of tangent.
 
 According to the [trigonometric identities](https://en.wikipedia.org/wiki/Trigonometric_functions#cot),
 
@@ -79,15 +79,17 @@ $$\tan \left( \displaystyle \frac{\pi}{2} - \alpha \right) = \cot \alpha$$
 
 $$\tan \left[ \displaystyle \frac{\pi}{2} - \arctan \left( \displaystyle \frac{1}{2} \right) \right] = \cot \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right] = \displaystyle \frac{1}{\tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]} = \frac{1}{\displaystyle \frac{1}{2}} = 2$$
 
-which is the final result.
+which is still a limit value (due to $r \to \infty$) and represents the final result.
 
 ***
 
-Note that a [difference identity](https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Angle_sum_and_difference_identities) for the tangent function can not be used here, because it would lead to the following unacceptable expression:
+The [difference identity](https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Angle_sum_and_difference_identities) for the tangent function could also alternatively be recalled here. If directly using the angle $\pi / 2$, this identity would explicitly include $\tan \left( \displaystyle \frac{\pi}{2} \right)$, which is a meaningless expression. However, being the angle $\pi / 2$ only a *limit* value, we are allowed to use the *limit* of this identity. The identity is indeed applicable to *all* the angles, *except* $\pi / 2$ (and its integer multiples).
 
-$$\tan \left[ \displaystyle \frac{\pi}{2} - \arctan \left( \displaystyle \frac{1}{2} \right) \right] = \frac{\tan \left( \displaystyle \frac{\pi}{2} \right) - \tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]}{1 + \tan \left( \displaystyle \frac{\pi}{2} \right) \tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]}$$
+$$\lim_{x \to \pi / 2} \tan \left[ x - \arctan \left( \displaystyle \frac{1}{2} \right) \right] = \frac{\tan x - \tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]}{1 + \tan x \tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]}$$
 
-Tangent is not defined in $\pi / 2$.
+Only the terms going to infinite are not negligible: $\tan x$ in the numerator and $\tan x \tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]$ in the denominator. The result is
+
+$$\lim_{x \to \pi / 2} \tan \left[ x - \arctan \left( \displaystyle \frac{1}{2} \right) \right] = \frac{1}{\tan \left[ \arctan \left( \displaystyle \frac{1}{2} \right) \right]} = 2$$
 
 --
 
