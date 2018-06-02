@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The chain rule for differential equations and second derivatives"
+title:  "The chain rule for second derivatives and a differential equation"
 date:   2018-06-02 13:23:00 +0200
 categories: math
 ---
