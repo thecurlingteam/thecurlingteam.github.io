@@ -46,7 +46,7 @@ $$\mathrm{arcsinh}(-x) = \log \left( -x + \sqrt{x^2 + 1} \right) \label{d} \tag{
 
 it seems not immediate to deduce that the function is odd. However, note that:
 
-$$\left( \sqrt{x^2 + 1} + x \right)\left( \sqrt{x^2 + 1} - x \right) = x^2 + 1 - x^2 = 1$$
+$$\left( \sqrt{x^2 + 1} + x \right) \cdot \left( \sqrt{x^2 + 1} - x \right) = x^2 + 1 - x^2 = 1$$
 
 Summing the members of $\ref{c}$ and $\ref{d}$:
 
