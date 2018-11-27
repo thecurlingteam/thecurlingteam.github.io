@@ -9,13 +9,13 @@ Several surprising analogies arise when comparing hyperbolic sine and cosine to 
 
 Moreover, being the hyperbolic sine and cosine defined through exponential functions, they are also closely related to the complex definitions of sine and cosine, which can be regarded as a generalization of the real functions.
 
-By an appropriate choice of the value of the angle $z \in \mathbb{C}$, the remarkable real results $\sin (z) \geq 1$ and $\cos (z) \geq 1$ can be obtained.
+By an appropriate choice of the angle $z \in \mathbb{C}$, two remarkable real results can be obtained: $\sin (z) \geq 1$ (with a complex $z$ and some consequences for the cosine of the same angle) and $\cos (z) \geq 1$ (with a pure imaginary $z$).
 
 A quick overview about these peculiarities is presented in the following document, along with several plots:
 
 [![Hyperbolic functions and complex angles]({{ site.url }}/assets/document2_64.png)]({{ site.url }}/assets/hyperbolic_sine_and_cosine.pdf) [**Hyperbolic functions and complex angles**]({{ site.url }}/assets/hyperbolic_sine_and_cosine.pdf) (click to download the pdf document).
 
-*Update: November 24th, 2018*
+*Update: November 27th, 2018*
 
 Table of contents:
 
@@ -24,6 +24,7 @@ Table of contents:
 - Real values greater than unity
   - Method 1
   - Method 2
+- Pure imaginary values
 
 
 --
