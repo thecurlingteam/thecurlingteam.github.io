@@ -12,7 +12,7 @@ The document tries to adopt a systematic approach towards the Maxwell equation s
 
 [![A partial introduction to dielectric waveguides]({{ site.url }}/assets/document2_64.png)]({{ site.url }}/assets/dwaveguides_one.pdf) [**A partial introduction to dielectric waveguides**]({{ site.url }}/assets/dwaveguides_one.pdf) (click to download the pdf document).
 
-*Update: May 22th, 2018*
+*Update: November 30th, 2018*
 
 Table of contents:
 
@@ -28,7 +28,7 @@ Table of contents:
       - Odd TM modes
     - Normalized equations
     - Dielectric cutoff condition
-    - Snell's law
+    - Snell's law and mode confinement
 - Appendices, A subset of Second order differential equations
   - Introduction
   - A specific case
