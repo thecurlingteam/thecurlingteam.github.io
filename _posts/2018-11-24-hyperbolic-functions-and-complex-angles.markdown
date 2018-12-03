@@ -15,7 +15,7 @@ A quick overview about these peculiarities is presented in the following documen
 
 [![Hyperbolic functions and complex angles]({{ site.url }}/assets/document2_64.png)]({{ site.url }}/assets/hyperbolic_sine_and_cosine.pdf) [**Hyperbolic functions and complex angles**]({{ site.url }}/assets/hyperbolic_sine_and_cosine.pdf) (click to download the pdf document).
 
-*Update: November 27th, 2018*
+*Update: December 3rd, 2018*
 
 Table of contents:
 
