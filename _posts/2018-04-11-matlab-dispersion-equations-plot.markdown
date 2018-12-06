@@ -24,11 +24,11 @@ $$
 
 and finding a numerical value for their intersection is not a trivial task. Both Mathematica and Matlab are available for this kind of work. Here, Matlab (which is more suitable for designers) is used.
 
-The original code has been published in [this](http://ece562web.groups.et.byu.net/) site:
+The original code has been published in [this](http://ece562web.groups.et.byu.net/) site. If it is offline, check out the local copies of the original files:
 
-* original [main script](http://ece562web.groups.et.byu.net/notes/sym_waveguide.m);
-* original [function for symmetrical modes](http://ece562web.groups.et.byu.net/notes/sym_modes.m);
-* original [function for asymmetrical modes](http://ece562web.groups.et.byu.net/notes/asym_modes.m).
+* original [main script](http://ece562web.groups.et.byu.net/notes/sym_waveguide.m) ([local copy]({{ site.url }}/assets/sym_waveguide.m));
+* original [function for symmetrical modes](http://ece562web.groups.et.byu.net/notes/sym_modes.m) ([local copy]({{ site.url }}/assets/sym_modes.m));
+* original [function for asymmetrical modes](http://ece562web.groups.et.byu.net/notes/asym_modes.m) ([local copy]({{ site.url }}/assets/asym_modes.m)).
 
 These three files must be placed in the same directory, then the main script must be executed by Matlab (run by the GUI button or the F5 key).
 
