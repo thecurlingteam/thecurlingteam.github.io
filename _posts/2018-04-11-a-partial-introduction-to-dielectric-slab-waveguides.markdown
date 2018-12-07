@@ -12,7 +12,7 @@ The document tries to adopt a systematic approach towards the Maxwell equation s
 
 [![A partial introduction to dielectric waveguides]({{ site.url }}/assets/document2_64.png)]({{ site.url }}/assets/dwaveguides_one.pdf) [**A partial introduction to dielectric waveguides**]({{ site.url }}/assets/dwaveguides_one.pdf) (click to download the pdf document).
 
-*Update: December 4th, 2018*
+*Update: December 6th, 2018*
 
 <br>
 
